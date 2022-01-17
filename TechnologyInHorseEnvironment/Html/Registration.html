@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <!--Start Include Header-->
+    <div id="HaederPart">
+        <nav w3-include-HTML="./Header.html">My Header HTML include will go here.
+        </nav>
+    </div>
+    <script src="../JavaScript/w3-include-HTML.js"></script>
+    <!--End Include Header-->
+
+    <!--Start Registration Page-->
+    <div class="container">
+        <form id="login" class="pb-5 mt-5">
+            <div class="mb-3">
+                <label for="InputFirstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="InputFirstName" aria-describedby="firstNameHelp"
+                    placeholder="Please Enter Your First Name">
+            </div>
+            <div class="mb-3">
+                <label for="InputLastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="InputLastName" aria-describedby="lastNameHelp"
+                    placeholder="Please Enter Your Last Name">
+            </div>
+            <div class="mb-3">
+                <label for="InputPhone" class="form-label">Phone</label>
+                <input type="number" class="form-control" id="InputPhone" aria-describedby="phonrHelp"
+                    placeholder="Please Enter Your Phone Number">
+            </div>
+            <div class="mb-3">
+                <label for="InputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="InputAddress" aria-describedby="AddressHelp"
+                    placeholder="Please Enter Your Address">
+            </div>
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                    placeholder="Please Enter Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="InputPassword" placeholder="Please Enter Your Password">
+            </div>
+            <div class="mb-3">
+                <label for="ReTypePassword" class="form-label">ReType Password</label>
+                <input type="password" class="form-control" id="ReTypePassword"
+                    placeholder="Please ReType Your Password">
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+
+        </form>
+    </div>
+    <!--End Registration Page-->
+</body>
+
+<!--Start Include Footer-->
+<footer>
+    <div id="HaederPart">
+        <div w3-include-HTML="./Footer.html">My Footer HTML include will go here.</div>
+        <script src="../JavaScript/w3-include-HTML.js"></script>
+    </div>
+</footer>
+<!--End Include Footer-->
+
+</html>
